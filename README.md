@@ -23,7 +23,8 @@ Before running the app, make sure you have the following dependencies installed:
 ### Install Dependencies
 
 1. Clone the repository:
-   ```bash
+   
+```bash
    git clone https://github.com/yourusername/GAN_image_Denoising.git
    cd GAN_image_Denoising
 ```
@@ -31,7 +32,7 @@ Before running the app, make sure you have the following dependencies installed:
 
 ```bash
 python -m venv venv
-source venv/bin/activate   # On Windows, use 'venv\
+source venv/bin/activate  
 ```
 
 4.Install the required Python packages:

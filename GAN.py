@@ -24,7 +24,7 @@ model.load_state_dict(torch.load("gan_denoiser.pth", map_location=torch.device('
 model.eval()
 
 # Set Up Google Gemini API
-genai.configure(api_key="AIzaSyDwlS39w8DpJDCNiLX2QAkxRLekBLVXS-8")
+genai.configure(api_key="YOUR GEMINI API KEY")
 
 def denoise_image(image):
     transform = transforms.Compose([

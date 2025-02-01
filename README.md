@@ -27,7 +27,6 @@ Before running the app, make sure you have the following dependencies installed:
    git clone https://github.com/yourusername/GAN_image_Denoising.git
    cd GAN_image_Denoising
 ```
-```
 2.Create and activate a virtual environment:
 
 ```bash
